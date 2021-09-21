@@ -23,7 +23,7 @@ console.log(numToString(fib()));
 
 function numEvenNums(arr) {
   let returnArray = [];
-  returnArray = _.filter(arr, function (num) { return num % 2 === 0});
+  returnArray = _.filter(arr, function (num) { return num % 2 === 0; });
   return returnArray.length;
 }
 
